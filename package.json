@@ -1,0 +1,36 @@
+{
+  "name": "water",
+  "version": "1.0.0",
+  "description": "Moisture Sensor and Watering Control ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/winstonparker/water.git"
+  },
+  "keywords": [
+    "node",
+    "water",
+    "raspberry",
+    "pi",
+    "moisture",
+    "sensor",
+    "watering"
+  ],
+  "author": "Winston Parker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/winstonparker/water/issues"
+  },
+  "homepage": "https://github.com/winstonparker/water#readme",
+  "dependencies": {
+    "i2c-bus": "^5.2.3"
+  },
+  "devDependencies": {
+    "@types/i2c-bus": "^5.1.2"
+  }
+}
