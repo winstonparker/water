@@ -41,6 +41,9 @@ async function main() {
       }
 }
 
-cron.schedule('* * * * * *', () => {
+cron.schedule('0 */10 * * * *', () => {
   main();
 });
+
+
+main();
