@@ -28,7 +28,10 @@
   },
   "homepage": "https://github.com/winstonparker/water#readme",
   "dependencies": {
-    "i2c-bus": "^5.2.3"
+    "firebase": "^10.11.1",
+    "firebase-admin": "^12.1.0",
+    "i2c-bus": "^5.2.3",
+    "node-dht-sensor": "^0.4.3"
   },
   "devDependencies": {
     "@types/i2c-bus": "^5.1.2"

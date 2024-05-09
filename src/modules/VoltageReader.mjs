@@ -1,4 +1,4 @@
-import { createADS1115 } from '../util/ADS1115.mjs'; // Ensure ADS1115 is also an ES module
+import { createADS1115 } from './ADS1115.mjs'; // Ensure ADS1115 is also an ES module
 import { sleep, getCurrentTimestamp } from '../util/time.mjs';
 
 export default class VoltageReader {
